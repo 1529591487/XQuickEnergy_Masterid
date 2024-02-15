@@ -3,6 +3,8 @@ name: Android CI
 on:
   release:
     types: [published]
+  push:
+    branches: [ "masterid" ]
 
 jobs:
   build:
